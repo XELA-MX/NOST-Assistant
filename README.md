@@ -22,8 +22,7 @@ Additionally, you need a valid OpenAI API key. You can obtain one [here](https:/
 ## Usage
 
 1. Run the project's main script.
-2. The assistant will continuously listen. Say "NOST" followed by a command to activate it.
-3. You can also interact with the graphical interface to send messages or use the TTS button to listen to text.
+2. You can also interact with the graphical interface to send messages.
 
 ### Example
 
@@ -37,10 +36,6 @@ Additionally, you need a valid OpenAI API key. You can obtain one [here](https:/
 - **OpenAI API Key:** Set your key in the project file:
   ```python
   openai.api_key = "your_api_key_here"
-  ```
-- **Voice Recognition Language:** Currently set to Spanish (`es-ES`). You can change this in the `listen_microphone` function:
-  ```python
-  recognizer.recognize_google(audio, language="es-ES")
   ```
 
 ## Future Versions
